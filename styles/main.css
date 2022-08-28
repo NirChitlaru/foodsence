@@ -1,0 +1,68 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+/* 
+* Add your own CSS code below... 
+*/
+
+html{
+    height:100%;
+}
+
+.main
+{
+display:flex ;
+margin:0 20px; 
+flex-wrap:wrap;
+align-items: center;   
+justify-content: center;
+border: red 1px solid;
+}
+
+.hero>img{ width:70vw; 
+margin: 0 auto;}
+.hero{display:flex; justify-content: center;
+    border: red 1px solid;}
+
+body>*
+{
+    flex-basis: 100%;
+}
+.sidemenu
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidemenu__options{order: 1; flex-basis: 100%; display:flex; padding: 20px 40px;}
+.options__option{flex-grow:1;}
+
+.sidemenu__foodsencelogo{order: 2; flex-basis: 100%; border: red 1px solid; display:flex; justify-content: center;
+    padding: 30px 0;
+}
+.sidemenu__tweet-face{order: 3; display: none;}
+.options__option>img{display: none;}
+
+.greenboxes{display:none;}
+
+.form{display: flex; flex-wrap: wrap; align-items: strech; justify-content: center; margin: 20px 0 ;}
+.signup{display: flex; border: red 1px solid; flex-basis:90%; margin:10px 0;}
+.signup__email{flex-basis:60%}
+.signup__submit{flex-basis: calc(40% - 70px); margin-left: 70px;}
+.envelope {flex-basis: 15%; display: flex; align-items: stretch; border: red 1px solid;}
+.envelopewords{flex-basis: 75%;}
+
+.caption-explain{display: flex;
+flex-wrap: wrap; justify-content: center;}
+.caption-explain>*{flex-basis: 100%; margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center;
+    border: red 1px solid;} 
+.caption-explain>*>*{flex-basis: 100%; border: red 1px solid; }
+
+.box__first>img{margin: 0 50%;border: red 1px solid; }
+
+
+
+
+
